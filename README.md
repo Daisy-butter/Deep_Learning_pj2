@@ -13,7 +13,7 @@ All experiments were conducted on a single-GPU system with the following specs:
 
 ### 1. Neural Network Playground (`basecnn.py`) 
 Time to mix and match! This script lets you experiment with:
-- Different activation functions (ReLU, Sigmoid, Tanh - oh my!)
+- Different activation functions (Leaky_ReLU, Sigmoid)
 - Various loss functions
 - Filter combinations in your CNN
 
@@ -42,7 +42,6 @@ But is it always better? Run the experiment to find out!
 
 ## 🏃‍♀️ Getting Started
 1. Clone this repository
-2. Install requirements: `pip install -r requirements.txt`
 3. Run the experiments you're interested in
 4. Check the generated results and visualizations
 
